@@ -1,0 +1,135 @@
+.banner {
+    background-image: url(../img/bannerbg.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 208px 0 185px;
+    position: relative;
+    
+}
+.banner_wrapper{
+    position: relative;
+    z-index: 999;
+}
+.banner::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    
+}
+
+.banner_wrapper > hr {
+    width: 170px;
+    border: 1px solid #FFFFFF;
+    height: 1px;
+
+}
+
+.banner_tittle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 73px 0 56px;
+    text-transform: capitalize;
+    
+}
+
+.banner_text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 270px;
+    margin: 42px 0;
+    color: #FFFFFF;
+
+}
+.banner_button {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    width: 270px;
+    height: 58px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    color: #FFFFFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_box{
+    display: flex;
+}
+.banner_form{
+    max-width: 470px;
+    width: 100%;
+    height: 450px;
+    left: 0px;
+    top: 0px;
+    padding: 30px 50px 0;
+    background: #FFFFFF;
+    border-radius: 10px;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.banner_form > h4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+.banner_form_text{
+    color:#EC7979;
+}
+.banner_form_info{
+    height: 38px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    margin: 0 0 33px;
+}
+.banner_form_info::placeholder{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #BDBDBD;
+    padding-bottom: 16px;
+}
+.banner_form_button{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #EC7979;
+    width: 470px;
+    height: 60px;
+    text-align: center;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    right: 50px;
+
+}
