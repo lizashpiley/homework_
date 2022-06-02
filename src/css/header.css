@@ -1,0 +1,35 @@
+a {
+	text-decoration: none;
+}
+.header {
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 75px;
+	z-index: 5;
+    background-color: #000000;
+	position: sticky;
+}
+
+.header_wrapper {
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	height: 100%;
+	
+}
+
+.header_logo {
+	position: relative;
+	left: -55px;
+}
+
+.header_navigation > a {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 19px;
+    margin: 0 24px 0 0;
+    color: #ffffff;
+}
+
