@@ -10,7 +10,7 @@
 }
 .design_wrapper{
     position: relative;
-    z-index: 999;
+    z-index: 10;
 }
 .design::after{
     content: "";
